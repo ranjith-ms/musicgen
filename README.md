@@ -1,4 +1,4 @@
-# musicgen
+﻿# musicgen
 musicgen is a module for pre-processing audio and to prepare the dataset for neural networks in genarating music. Built on top of Music21 and youtube_dl
 ### Features
   - Download the songs,videos from URL
@@ -13,19 +13,19 @@ musicgen is a module for pre-processing audio and to prepare the dataset for neu
 $ pip install musicgen
 ```
 #### get_notes(path='*.mid')
-Get all the notes and chords from the midi files
-Args:
+Get all the notes and chords from the midi files  
+Args:  
 path : path for the song with midi extension. ‘*.mid’ by default which gets the note of all the songs in the current working directory.
-Returns:
-List of notes obtained from the midi file
+Returns:  
+List of notes obtained from the midi file  
 #### download_song_with_url(url,audio_type='mp3',quality='192')
-Downloads the audio of a video present in the given video URL to current working directory.
-Args:
-url : (string)  URL of a video
-audio_type :(string)"aac", "flac", "mp3", "m4a", "opus", "vorbis", or "wav". ‘mp3’ by default
+Downloads the audio of a video present in the given video URL to current working directory.  
+Args:   
+url : (string)  URL of a video  
+audio_type :(string)"aac", "flac", "mp3", "m4a", "opus", "vorbis", or "wav". ‘mp3’ by default  
 #### create_midi(prediction_output,name='output')
 convert the output from the prediction to notes and create a midi file from the notes in current working directory.
-Args:
+Args:   
 prediction_output : the output predictions of a trained model.
 name : (string) name of the generated file. output by default.
 #### prepare_sequences(notes, n_vocab,sequence_length = 100)
