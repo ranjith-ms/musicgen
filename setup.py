@@ -20,7 +20,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/ranjith-ms",
-    download_url ="https://github.com/ranjith-ms/musicgen/archive/v0.0.1.tar.gz",
+    download_url ="https://github.com/ranjith-ms/musicgen/archive/v0.1.tar.gz",
     packages=setuptools.find_packages(),
     install_requires=["youtube_dl", "music21","numpy",],
     classifiers=[
