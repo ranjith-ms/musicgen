@@ -9,6 +9,6 @@ __version__= '0.0.1'
 
 # In[ ]:
 
-
+from musicgen import musicgen
 
 
