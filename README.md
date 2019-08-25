@@ -12,6 +12,10 @@ musicgen is a module for pre-processing audio and to prepare the dataset for neu
 ```sh
 $ pip install musicgen
 ```
+### Import
+```sh
+import musicgen.musicgen as mg
+```
 #### get_notes(path='*.mid')
 Get all the notes and chords from the midi files  
 ##### Args:  
