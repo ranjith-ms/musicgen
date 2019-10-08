@@ -72,6 +72,17 @@ n_vocab : (int) number of unique notes
 ##### Returns:  
 predicted_output  
 
+### Citation
+```sh
+@misc{musicgen,
+    author = {Ranjith M S},
+    title = {A module for pre-processing steps.},
+    year = {2019},
+    publisher = {GitHub},
+    journal = {GitHub repository},
+    howpublished = {\url{https://github.com/ranjith-ms/musicgen}},
+}
+```
 
 
 
